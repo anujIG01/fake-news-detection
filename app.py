@@ -34,7 +34,7 @@ def predict_news(text):
 
 st.set_page_config(page_title="Fake News Detector", page_icon="📰", layout="centered")
 
-st.markdown("<h1 style='text-align:center; margin-bottom:0;'>📰 Fake News Detector</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center; margin-bottom:0;'>Fake News Detector</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center; color:gray;'>Paste a news article below and find out if it's real or fake.</p>", unsafe_allow_html=True)
 st.divider()
 
